@@ -1,0 +1,30 @@
+﻿; UICLR.def: 宣告 DLL 的模組參數。
+
+LIBRARY
+
+EXPORTS
+    ; 明確匯出可置於此
+	CLR_CreateDialog;
+	CLR_FreeDialog;
+	CLR_InitWindow;
+	CLR_Close;
+	CLR_GetHandle;
+	CLR_AlignmentLaserCali;
+	CLR_ContourLaserCali;
+	CLR_ContourLaserOffset;
+	CLR_AlignmentAxisCali;
+	CLR_AlignmentRegi;
+	CLR_Alignment;
+	CLR_Contour;
+	CLR_IsAlignmentActionFinish;
+	CLR_IsContourActionFinish;
+	CLR_AlignmentReset;
+	CLR_ContourReset;
+	CLR_SaveParam;
+	CLR_SaveAsRecipe;
+	CLR_LoadRecipe;
+	CLR_ContourFinderShow;
+	CLR_MarkFinderShow;
+	CLR_SetCallBack_Move;
+	CLR_SetCallBack_MoveDone;
+	CLR_SetCallBack_AlarmMessage;
