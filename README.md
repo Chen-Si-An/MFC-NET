@@ -1,4 +1,4 @@
-# MFC_NET
+# MFC-NET
 
 ### This project demonstrates how MFC applications interoperate with .NET framework through CLR control.
 
